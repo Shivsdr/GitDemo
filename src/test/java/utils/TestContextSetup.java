@@ -18,5 +18,8 @@ public class TestContextSetup {
 		testBase = new TestBase();
 		pageObjectManager = new PageObjectManager(testBase.WebDriverManager());
 		genericUtils = new GenericUtils(testBase.WebDriverManager());
+		
+		System.out.println("Change 1");
+		System.out.println("Change 2");
 	}
 }
