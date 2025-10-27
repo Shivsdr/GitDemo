@@ -33,6 +33,11 @@ public class TestBase {
 			driver.get(url);
 			
 		}
+		
+		System.out.println("Change 3");
+		System.out.println("Change 4");
+		System.out.println("Change 5");
+		System.out.println("Change 6");
 		return driver;
 	}
 }
