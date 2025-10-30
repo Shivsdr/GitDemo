@@ -26,5 +26,6 @@ public class TestContextSetup {
 	}
 	public void randomTest() {
 		System.out.println("Enjoy github");
+		System.out.println("Second guy working on development");
 	}
 }
