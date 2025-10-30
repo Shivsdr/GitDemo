@@ -13,6 +13,8 @@ public class TestBase {
 	public WebDriver driver;
 	public WebDriver WebDriverManager() throws IOException {
 		
+		
+		System.out.println("Some random stuff for merge");
 		Properties properties = new Properties();
 		properties.load(new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\global.properties"));
 		
